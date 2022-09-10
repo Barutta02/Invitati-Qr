@@ -3,6 +3,7 @@ function generaCodice() {
   nome = document.getElementById("inputNome").value;
   cognome = document.getElementById("inputCognome").value;
   document.getElementById("copiaApp").style.display = "block";
+  document.getElementById("info").style.display = "block";
   var qrc = new QRCode(document.getElementById("viewQrCode"), {
     text: nome + " " + cognome + " " + generaSeqUnivoca(),
     width: 200,
