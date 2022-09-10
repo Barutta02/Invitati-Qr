@@ -29,3 +29,10 @@ position: relative;
     width: 150px;
     display: none;
 }
+.info{
+    display: none;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    text-align: center;
+}
